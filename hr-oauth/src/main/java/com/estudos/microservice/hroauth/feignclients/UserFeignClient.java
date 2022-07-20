@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.estudos.microservice.hroauth.entity.User;
 
 @Component
-@FeignClient(name = "hr-user", url = "http://localhost:8761", path = "/users")
+@FeignClient(name = "hr-user", path = "/users")
 public interface UserFeignClient {
 	
 	@GetMapping(value = "/search")

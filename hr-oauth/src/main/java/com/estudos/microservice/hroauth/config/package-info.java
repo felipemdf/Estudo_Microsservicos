@@ -1,0 +1,1 @@
+package com.estudos.microservice.hroauth.config;
