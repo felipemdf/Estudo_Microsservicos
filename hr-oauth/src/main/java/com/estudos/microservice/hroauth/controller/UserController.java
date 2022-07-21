@@ -12,7 +12,7 @@ import com.estudos.microservice.hroauth.entity.User;
 import com.estudos.microservice.hroauth.service.UserService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/oauth/users")
 public class UserController {
 	
 	@Autowired
